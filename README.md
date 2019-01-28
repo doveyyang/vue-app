@@ -27,9 +27,10 @@ npm run e2e
 npm test
 ```
 
-# 模块化
+# 一个VUE实战项目
 
+## 模块化
 模块功能主要由两个命令 import export模块对外的接口
 模块功能由以下
-
+ 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
