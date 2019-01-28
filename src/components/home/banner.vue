@@ -16,13 +16,18 @@ export default {
   data () {
     return {
       bannercount: 0, // 当前的banner位置
-      banner_url: [
-        require('../assets/img/banner1.jpg'),
-        require('../assets/img/banner2.jpg'),
-        require('../assets/img/banner3.jpg'),
-        require('../assets/img/banner4.jpg'),
-        require('../assets/img/banner5.jpg')
-      ],
+    //   banner_url: [
+    //     require('../../assets/img/banner1.jpg'),
+    //     require('../../assets/img/banner2.jpg'),
+    //     require('../../assets/img/banner3.jpg'),
+    //     require('../../assets/img/banner4.jpg'),
+    //     require('../../assets/img/banner5.jpg')
+    //   ],
+      banner_url:[require('../../assets/images/l8.jpg'),
+            require('../../assets/images/l1.jpg'),
+            require('../../assets/images/l2.jpg'),
+            require('../../assets/images/l3.jpg'),
+            require('../../assets/images/l4.jpg')],
       num: 0,
       allcount: 5
     }
@@ -78,4 +83,5 @@ export default {
 .banner .banner-circle .selected{
     background-color: grey;
 }
+
 </style>

@@ -1,18 +1,28 @@
 <template>
     <div>
-        <h2>主页</h2> 
+       <search/>
+       <banner/>
+       <list/>
     </div>
 </template>
 <script>
+import banner from './banner'
+import list from './list'
+import search from './search'
 export default {
     data(){
         return {
 
         }
+    },
+    components:{
+        banner,
+        list,
+        search
     }
 }
 </script>
 
-<style scoped>
-
+<style>
+@import '../../assets/css/index.css';
 </style>

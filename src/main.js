@@ -5,7 +5,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import './assets/common.css'
+// import './assets/common.css'
 import './assets/fonts/iconfont.css'
 import './assets/css/base.css'
 
