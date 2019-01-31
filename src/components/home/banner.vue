@@ -74,7 +74,6 @@ export default {
     display: flex;
     margin:0 2px;
     display:inline-block;
-    /* right: 0; */
     width: 10px;
     height: 10px;
     background-color: #ccc;

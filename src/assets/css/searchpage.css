@@ -130,3 +130,8 @@ li em {
     margin-top: 5px;
     color: #848689;
 }
+
+.icon_logo{
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}

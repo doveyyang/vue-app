@@ -1,7 +1,7 @@
 <template>
     <div class="home_h">
         <header class="m_header">
-            <div class="m_header_box" i="my_search">
+            <div class="m_header_box" id="my_search">
                 <a href="#" class="icon_logo"></a>
                 <form action="#">
                     <span class="icon_search"></span>
@@ -22,6 +22,6 @@ export default{
     }
 }
 </script>
-<style scoped>
+<style>
 @import '../../assets/css/searchpage.css';
 </style>
