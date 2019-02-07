@@ -6,6 +6,7 @@ import Cart from '@/components/cart'
 import Category from '@/components/category'
 import Find from '@/components/find'
 import Mine from '@/components/mine'
+import Detail from '@/components/detail'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/home',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/detail/:id',
+      name: 'Detail',
+      component: Detail
     },
     {
       path: '/cart',

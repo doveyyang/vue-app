@@ -5,7 +5,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from 'axios'
-import VueLazyload from 'vue-lazyload'
+import VueLazyLoad from 'vue-lazyload'
 
 // import './assets/common.css'
 import './assets/fonts/iconfont.css'
@@ -19,7 +19,13 @@ axios.defaults.baseURL = 'http://127.0.0.1:3333'
 axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded'
 Vue.prototype.$http = axios
 
-// 模块化
+// 设置懒加载
+Vue.use(VueLazyLoad, {
+  preLoad: 1.3,
+  error: './assets/images/err.png',
+  loading: './assets/images/loading.gif',
+  attempt: 1
+})
 
 /* eslint-disable no-new */
 new Vue({

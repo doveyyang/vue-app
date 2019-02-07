@@ -11,7 +11,7 @@
     </div>
 </template>
 <script>
-import banner from './banner'
+import banner from '../public/banner'
 import list from './list'
 import search from './search'
 import goods from './goods'
