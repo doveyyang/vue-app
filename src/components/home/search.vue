@@ -17,7 +17,7 @@
 export default{
     methods:{
         goSearch(){
-            this.$router.push({path:'/category'})
+            this.$router.push({path:'/search'})
         }
     }
 }

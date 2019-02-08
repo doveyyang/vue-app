@@ -7,6 +7,7 @@ import Category from '@/components/category'
 import Find from '@/components/find'
 import Mine from '@/components/mine'
 import Detail from '@/components/detail'
+import Search from '@/components/search'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/home',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/search',
+      name: 'Search',
+      component: Search
     },
     {
       path: '/detail/:id',
