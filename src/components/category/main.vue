@@ -1,6 +1,7 @@
 <template>
     <div class="main">
-
+        <main-left />
+        <mainRight />
     </div>
 </template>
 <script>
@@ -9,7 +10,7 @@ import mainRight from './mainRight'
 export default {
     data(){
         return {
-
+            
         }
     },
     components:{
