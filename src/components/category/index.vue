@@ -19,3 +19,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+/* @import '../../assets/css/searchpage.css'; */
+</style>
